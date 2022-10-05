@@ -3,12 +3,6 @@ import ReactDOM from 'react-dom/client';
 import 'bootstrap/dist/css/bootstrap.css';
 import './index.css';
 
-// textArea style
-const taStyle = {
-  width: "100%",
-  height: "calc(50vh - 52.5px)",
-  fontFamily: "monospace, monospace"
-};
 
 // toolbar style
 const tbStyle = {
@@ -61,10 +55,10 @@ class App extends React.Component {
   render() {
     return (
       <div className="MySQLtoCSV mx-2">
-        <label className="bold">Paste MySQL SELECT Output Here</label>
+        <label className="bold">Paste MySQL SELECT results here:</label>
         <textarea
           id="input-content"
-          style={taStyle}
+          className="textArea textAreaInput"
           onChange={this.handleChange}
           value={this.state.inputValue}
         />
@@ -75,9 +69,10 @@ class App extends React.Component {
         </div>
         <textarea
           id="csv-content"
-          style={taStyle}
+          className="textArea"
           value={this.state.csvData}
           readOnly={true}
+          wrap="off"
         />
       </div>
     );

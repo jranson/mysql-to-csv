@@ -10,3 +10,13 @@ body {
 .bold {
     font-weight: bold;
 }
+
+.textArea {
+    width: 100%;
+    height: calc(50vh - 52.5px);
+    font-family: monospace, monospace;
+}
+
+.textAreaInput {
+    white-space: nowrap;
+}

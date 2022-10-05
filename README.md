@@ -2,9 +2,9 @@
 
 Paste in an output table in the top box, and it will automatically render as a CSV in the bottom box.
 
-## Developer Environment
+<img src="./docs/images/example.png" width="800" />
 
-Fork the project, and clone your own fork to your developer machine. Do not clone the base repo.
+## Developer Environment
 
 You must have the following things installed to your developer machine:
 
