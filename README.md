@@ -1,8 +1,14 @@
 # MySQL to CSV / Output Converter
 
-Paste in an output table in the top box, and it will automatically render as a CSV in the bottom box.
+This React.js App converts the results of a MySQL SELECT query into a CSV or TSV document.
+
+Paste the query output into the top box, and it will automatically render as a CSV in the bottom box. Then do whatever you need to with the transformed result.
 
 <img src="./docs/images/example.png" width="800" />
+
+## Online access
+
+This project is not currently running on the internet. You will need to clone and run this project locally to access it in a web browser, following the instructions below. Don't worry, it's fast and easy.
 
 ## Developer Environment
 
